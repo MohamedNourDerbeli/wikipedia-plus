@@ -35,7 +35,34 @@ yarn-error.log*
 
 # vercel
 .vercel
+.vercel/output
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE-specific
+.vscode/
+*.code-workspace
+.idea/
+
+# Prettier and ESLint
+.prettiercache
+.eslintcache
+
+# Temporary and log files
+*.log
+*.tmp
+*.swp
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Build artifacts
+dist/
+.turbo/
+
+# Hosting-specific
+.netlify/
+.firebase/
